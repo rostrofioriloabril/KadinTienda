@@ -119,11 +119,11 @@ header {
     perspective: 1000px;
    
 }
-/*
+
 .card__father:hover .card {
     transform: rotateY(180deg)!important;
 }
-*/
+
 .card {
     width: 300px;
     height: 400px;
@@ -180,7 +180,7 @@ header {
     background: rgba(0, 0, 0, 0.4);
     border-radius: 20px;
 }
-/**
+
 .body__card_back {
     padding: 40px;
     text-align: center;

@@ -112,6 +112,7 @@ header {
     justify-content: center;
     z-index: 1;
     scroll-behavior: smooth;
+    margin-bottom: 10px;
 }
 
 .card__father {

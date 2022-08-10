@@ -1,16 +1,15 @@
 
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #72367a, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 5s ease infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #72367a);
+	background-size: 400% 400%;/*
+	animation: gradient 5s ease infinite;*/
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    user-select: none;
     scroll-behavior: smooth; 
 }
-
+/*
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -22,7 +21,7 @@ body {
 		background-position: 0% 50%;
 	}
 }
-
+*/
 header {
     display: flex;
     justify-items: center;
@@ -127,8 +126,10 @@ header {
     color: rgb(75, 45, 125)
 }
 .informe {
-    width: 100%;
+    width: 98%;
     display: flex;
+    margin-left: 1%;
+    margin-right: 1%;
     flex-wrap: wrap;
     justify-content: center;
 }    
@@ -225,7 +226,7 @@ a:hover {
     padding-bottom: 15px;
 }
  
- /**/
+
  @media only screen and (max-width: 369px) {
     .pagos img {
         width: 100%;
@@ -250,7 +251,7 @@ a:hover {
         color: #fff;
         text-shadow: 0px -3px 2px #000;
         cursor: pointer;
-        margin: 15px 10px 0px ;
+        margin: 15px 6px 0px ;
         letter-spacing: 1px;
         text-align: center;
         font-size: 19px;
@@ -366,7 +367,7 @@ a:hover {
     .nav a {
         text-decoration: none;
         cursor: pointer;
-        margin: 15px 10px 0px ;
+        margin: 2px 10px 0px ;
         letter-spacing: 1px;
         text-align: center;
         font-size: 24px;
@@ -484,7 +485,7 @@ a:hover {
     .nav a {
         text-decoration: none;
         cursor: pointer;
-        margin: 15px 10px 0px ;
+        margin: 10px 10px 0px ;
         letter-spacing: 1px;
         text-align: center;
         font-size: 25px;
